@@ -100,11 +100,14 @@
         </item>
         <!-- beautyshot *************************************************** -->
         <item name="beautyshot_supported">
-            0
+            2
         </item>
         <!-- HDR *************************************************** -->
         <item name="hdr_supported">
             3
+        </item>
+        <item name="hdr_default_value">
+            0
         </item>
         <!-- super zoom *************************************************** -->
         <item name="super_zoom_supported">
@@ -116,10 +119,7 @@
         </item>
         <!-- Motion Quickview *************************************************** -->
         <item name="motionquickviewer_supported">
-            true
-        </item>
-        <item name="motionquickviewer_cv_supported">
-            true
+            false
         </item>
         <!-- HAL 3.0 *************************************************** -->
         <item name="hal_supported">
@@ -190,29 +190,4 @@
             100300030
         </item>
     </default>
-    <M-398991421>
-        <!-- video front size *************************************************** -->
-        <item name="video_size_front_supported">
-            1280x720,
-            640x480,
-            320x240,
-            176x144
-        </item>
-        <item name="video_previewSizeOnScreen_front_supported">
-            1280x720,
-            960x720,
-            960x720,
-            880x720
-        </item>
-        <item name="video_size_front_default">
-            1280x720
-        </item>
-    </M-398991421>
-    <!-- LM-X210ULMA LM-X212TA LML212VL LML211BL LM-X210WM *************************************************** -->
-    <M516703024.M679868404.M1151408062.M1151406481.M679866587>
-        <!-- timer_helper_supported *************************************************** -->
-        <item name="timer_helper_supported">
-            true
-        </item>
-    </M516703024.M679868404.M1151408062.M1151406481.M679866587>
 </Preference>
