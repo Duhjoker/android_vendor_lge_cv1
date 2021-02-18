@@ -92,11 +92,8 @@ special_mode_mask values:
       <CPPSnapshot>hi1332_lgit_cpp_snapshot</CPPSnapshot>
       <CPPVideo>hi1332_lgit_cpp_video</CPPVideo>
       <CPPLiveshot>hi1332_lgit_cpp_liveshot</CPPLiveshot>
-      <CPPFlashSnapshot>hi1332_lgit_cpp_flash_snapshot</CPPFlashSnapshot>
       <A3Preview>hi1332_lgit_zsl_preview_bu64244gwz</A3Preview>
       <A3Video>hi1332_lgit_zsl_video_bu64244gwz</A3Video>
-      <CPPPanorama>hi1332_lgit_cpp_panorama</CPPPanorama>
-      <A3Panorama>hi1332_lgit_panorama_preview_bu64244gwz</A3Panorama>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="1">
       <ISPPreview>hi1332_lgit_preview</ISPPreview>
@@ -106,21 +103,17 @@ special_mode_mask values:
       <CPPSnapshot>hi1332_lgit_cpp_snapshot</CPPSnapshot>
       <CPPVideo>hi1332_lgit_cpp_video</CPPVideo>
       <CPPLiveshot>hi1332_lgit_cpp_liveshot</CPPLiveshot>
-      <CPPFlashSnapshot>hi1332_lgit_cpp_flash_snapshot</CPPFlashSnapshot>
-      <A3Preview>hi1332_lgit_default_preview_bu64244gwz</A3Preview>
+      <A3Preview>hi1332_lgit_zsl_preview_bu64244gwz</A3Preview>
       <A3Video>hi1332_lgit_zsl_video_bu64244gwz</A3Video>
-      <CPPPanorama>hi1332_lgit_cpp_panorama</CPPPanorama>
-      <A3Panorama>hi1332_lgit_panorama_preview_bu64244gwz</A3Panorama>
     </ChromatixName>
     <ChromatixName sensor_resolution_index="2">
       <ISPPreview>hi1332_lgit_preview</ISPPreview>
       <ISPSnapshot>hi1332_lgit_snapshot</ISPSnapshot>
       <ISPVideo>hi1332_lgit_default_video</ISPVideo>
-      <CPPPreview>hi1332_lgit_cpp_binning</CPPPreview>
-      <CPPSnapshot>hi1332_lgit_cpp_binning</CPPSnapshot>
+      <CPPPreview>hi1332_lgit_cpp_preview</CPPPreview>
+      <CPPSnapshot>hi1332_lgit_cpp_snapshot</CPPSnapshot>
       <CPPVideo>hi1332_lgit_cpp_video</CPPVideo>
       <CPPLiveshot>hi1332_lgit_cpp_liveshot</CPPLiveshot>
-      <CPPFlashSnapshot>hi1332_lgit_cpp_flash_snapshot</CPPFlashSnapshot>
       <A3Preview>hi1332_lgit_zsl_preview_bu64244gwz</A3Preview>
       <A3Video>hi1332_lgit_zsl_video_bu64244gwz</A3Video>
     </ChromatixName>
