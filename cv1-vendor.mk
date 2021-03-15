@@ -161,6 +161,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/cv1/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/lge/cv1/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/lge/cv1/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
+    vendor/lge/cv1/proprietary/vendor/bin/wcnss_service:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_service \
     vendor/lge/cv1/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/lge/cv1/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/lge/cv1/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -182,7 +183,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/cv1/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/lge/cv1/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/lge/cv1/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/lge/cv1/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/lge/cv1/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/lge/cv1/proprietary/vendor/etc/data/dsi_config.xml:/system/etc/data/dsi_config.xml \
+    vendor/lge/cv1/proprietary/vendor/etc/data/netmgr_config.xml:/system/etc/data/netmgr_config.xml \
     vendor/lge/cv1/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/lge/cv1/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/lge/cv1/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
@@ -543,6 +547,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/cv1/proprietary/vendor/lib64/libsmemlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmemlog.so \
     vendor/lge/cv1/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/lge/cv1/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
+    vendor/lge/cv1/proprietary/vendor/lib64/libthermalclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalclient.so \
     vendor/lge/cv1/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/lge/cv1/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/lge/cv1/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
@@ -627,6 +632,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/cv1/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/cv1/proprietary/lib/libn2pm.so:system/lib/libn2pm.so \
     vendor/lge/cv1/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/lge/cv1/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/lge/cv1/proprietary/vendor/lib/libactuator_dw9714a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714a.so \
     vendor/lge/cv1/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
     vendor/lge/cv1/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
@@ -826,6 +832,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/cv1/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/lge/cv1/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/lge/cv1/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/lge/cv1/proprietary/vendor/lib/libts_detected_face_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_detected_face_hal.so \
+    vendor/lge/cv1/proprietary/vendor/lib/libts_face_beautify_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libts_face_beautify_hal.so \
     vendor/lge/cv1/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/lge/cv1/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/lge/cv1/proprietary/vendor/lib64/libnetmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnetmgr.so \
@@ -870,16 +878,17 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     libts_detected_face_hal \
     libts_face_beautify_hal \
-  #  libloc_api_v02 \
-  #  libtime_genoff \
-  #  mm-qcamera-daemon \
-  #  QtiTelephonyService \
-  #  ims \
-  #  imssettings \
-  #  datastatusnotification \
-  #  CNEService \
-  #  com.qualcomm.location \
-  #  qcrilmsgtunnel \
-  #  TimeService \
-  #  qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a \
-  #  qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a
+#    libloc_api_v02 \
+#    libtime_genoff \
+#    mm-qcamera-daemon \
+#    QtiTelephonyService \
+#    ims \
+#    imssettings \
+#    datastatusnotification \
+#    CNEService \
+#    com.qualcomm.location \
+#    qcrilmsgtunnel \
+#    TimeService \
+#    qdcm_calib_data_hx8394F_HD720p_video_BOE_c3a \
+#    qdcm_calib_data_ili9881c_HD720p_video_Ebbg_c3a \
+#    qdcm_calib_data_nt35521s_HD720p_video_EBBG_c3a
